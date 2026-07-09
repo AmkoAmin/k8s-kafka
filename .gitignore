@@ -1,0 +1,27 @@
+# Kubernetes / Helm
+charts/*.tgz
+*.tgz
+kubeconfig
+.kube/
+values-local.yaml
+values-secret.yaml
+
+# Secrets / credentials
+*.pem
+*.key
+*.crt
+.env
+.env.*
+secrets/
+
+# minikube
+.minikube/
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Logs
+*.log
